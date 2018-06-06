@@ -1,4 +1,4 @@
-FROM java:7
+FROM java:8
 MAINTAINER Tomasz Domański <rozpuszczalny@gmail.com>
 
 RUN /bin/bash -c "apt-get update -qq && apt-get install -y -qq unzip zip;\
